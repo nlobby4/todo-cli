@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "A command-line todo list manager",
   "type": "module",
+  "bin": {
+    "todo": "project/src/cli.js"
+  },
+  "files": [
+    "project/src/**",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "audit": "npm audit --omit=dev --audit-level=high",
     "audit:dev": "npm audit --only=dev --audit-level=high",
