@@ -110,7 +110,7 @@ export default {
     ],
     // Bump version in package.json and package-lock.json
     // TODO: set npmPublish to true if you want to publish to npm registry.
-    ["@semantic-release/npm", { npmPublish: false }],
+    ["@semantic-release/npm", { npmPublish: true }],
     // Create a tar.gz archive of the dist directory if a build script is defined.
     [
       "@semantic-release/exec",
