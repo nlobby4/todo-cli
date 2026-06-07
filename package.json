@@ -69,5 +69,8 @@
   "engines": {
     "node": ">=24.14.1",
     "npm": ">=11"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
