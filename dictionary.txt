@@ -1,0 +1,28 @@
+# --------------------------------------------------
+# Repository dictionary.
+#
+# This file lists project-specific words that should be
+# treated as valid by cspell.
+# --------------------------------------------------
+
+# Organization
+exquz3me
+flockmod
+nlobby4
+sphoon
+
+# Extensions
+amannn
+esbenp
+joshbolduc
+Anson
+webpro
+
+# Project specific
+adoc
+astextplain
+bibtex
+reshim
+gitmessage
+mintimeout
+maxtimeout

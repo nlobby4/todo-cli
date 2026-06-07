@@ -1,0 +1,48 @@
+{
+  "cache": {
+    "cacheLocation": ".cache/.cspellcache"
+  },
+  "dictionaries": [
+    "companies",
+    "softwareTerms",
+    "misc",
+    "typescript",
+    "node",
+    "php",
+    "go",
+    "python",
+    "powershell",
+    "html",
+    "css",
+    "cpp",
+    "csharp",
+    "latex",
+    "bash",
+    "fonts",
+    "filetypes",
+    "npm",
+    "project-words"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "project-words",
+      "path": "./dictionary.txt",
+      "addWords": true
+    }
+  ],
+  "flagWords": [],
+  "gitignoreRoot": "./project",
+  "ignorePaths": [
+    ".git",
+    ".husky/_",
+    "dictionary.txt",
+    "package-lock.json",
+    "dist",
+    "docs",
+    "coverage"
+  ],
+  "language": "en-US",
+  "readonly": true,
+  "useGitignore": true,
+  "version": "0.2"
+}

@@ -1,0 +1,61 @@
+# --------------------------------------------------
+# Dependabot configuration file.
+#
+# Dependabot opens pull requests to keep dependencies up to date
+# automatically. It supports a wide range of package ecosystems and
+# can be configured to group updates, set schedules, and apply labels.
+#
+# Major releases create a single PR per dependency to require explicit review.
+# Minor and patch releases are grouped together to reduce PR noise.
+#
+# For more information please see:
+# https://docs.github.com/en/code-security/dependabot
+# --------------------------------------------------
+
+# yaml-language-server: $schema=https://json.schemastore.org/dependabot-2.0.json
+
+version: 2
+updates:
+  # GitHub Actions workflow updates
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+    commit-message:
+      prefix: chore
+      include: scope
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+
+  # Node.js dependency updates.
+  # Minor and patch updates are grouped to reduce PR noise.
+  # Major updates are separated to require explicit review.
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+    commit-message:
+      prefix: chore
+      include: scope
+    groups:
+      dependencies:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+      dependencies-major:
+        patterns:
+          - "*"
+        update-types:
+          - major

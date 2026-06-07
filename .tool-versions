@@ -1,0 +1,23 @@
+# --------------------------------------------------
+# Tool version list for asdf version manager.
+#
+# This file specifies the exact versions of tools to be used in this project.
+# asdf is automatically installed and run in the development container.
+# If you are not using the development container set the tool versions manually:
+#
+# GitHub Actions runners read the Node.js version from .nvmrc (via actions/setup-node).
+# Keep .nvmrc in sync with the `nodejs` version specified in this file.
+#
+# For asdf users:
+# asdf install
+#
+# Manual setup:
+# nvm use
+#
+# NOTE: ASDF requires the necessary plugins to be installed.
+#
+# For more information please see:
+# https://asdf-vm.com/manage/configuration.html
+# --------------------------------------------------
+
+nodejs 24.14.1

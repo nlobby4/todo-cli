@@ -1,0 +1,47 @@
+{
+  "[git-commit]": {
+    "editor.defaultFormatter": "joshbolduc.commitlint",
+    "editor.rulers": [72, 100],
+    "editor.wordWrap": "wordWrapColumn",
+    "workbench.editor.restoreViewState": false
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  },
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "off",
+    "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/"
+  },
+  "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+  "cSpell.fixSpellingWithRenameProvider": true,
+  "cSpell.useLocallyInstalledCSpellDictionaries": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnType": false,
+  "editor.rulers": [80],
+  "files.associations": {
+    ".gitmessage": "ignore",
+    ".mailmap": "properties",
+    "AUTHORS": "properties",
+    "CODEOWNERS": "properties",
+    "LICENSE": "plaintext",
+    ".markdownlintignore": "ignore",
+    ".husky/*": "shellscript",
+    ".tool-versions": "properties",
+    "dictionary.txt": "properties"
+  },
+  "files.autoSave": "off",
+  "prettier.requireConfig": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.husky/_/**": true,
+    "**/package-lock.json": true
+  }
+}
